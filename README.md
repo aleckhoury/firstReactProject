@@ -1,25 +1,12 @@
-# ReduxSimpleStarter
-
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+# firstReactProject
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
+> This is a boilerplate app with minimal styling
+> Consists of simple routing, and both client and server side auth
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+#### The format of this boilerplate came from the work of [Stephen Grider](https://github.com/StephenGrider/)
 
 ```
-> npm install
-> npm start
+> Specifically, his React + Redux courses on Udemy. I've updated the original starter files and refactored them to utilize the latest versions of all packages, and meet my preferences.
 ```

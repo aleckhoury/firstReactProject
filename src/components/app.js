@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Header from './nav_header';
+import Space from './space_main';
 
-export default class App extends Component {
+export default class Home extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+        <Space />
+      </div>
     );
   }
 }

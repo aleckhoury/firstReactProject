@@ -1,0 +1,28 @@
+/* Header Nav*/
+
+html {
+  background: linear-gradient(141deg, #44af69, #2b9eb3);
+}
+
+#navigation {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, auto) 1fr repeat(2, auto);
+  place-items: center center;
+  height: 5em;
+}
+
+#space_main {
+  display: grid;
+  padding: 3em;
+  grid-template-columns: 1fr 1fr;
+  height: 20em;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+#space_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
